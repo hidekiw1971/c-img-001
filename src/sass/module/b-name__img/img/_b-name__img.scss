@@ -1,0 +1,15 @@
+@use "global" as *;
+// sp size 375px -> sp
+// tb size 375px -> md
+// pc size 375px -> xc
+
+.b-name__img {
+  max-width: rem(200);
+  width: 100%;
+
+  @include mq(md) {
+  }
+
+  @include mq(xl) {
+  }
+}

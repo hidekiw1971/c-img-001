@@ -1,21 +1,26 @@
 # module（共通部品）
 
-## 標準ボタン
+## img:画像の表示を高画質ディスプレイに対応させる。
 
-- ｘｘｘ
+- https://creative.eccom.jp/922/
+- Retina ディスプレイに代表されるような高画質ディスプレイに対応。
+- srcset 属性を使う（高画質ディスプレイ対応）させる。
+- srcset 属性を設定すると、デバイスの解像度によって最適な画像を表示してくれます。
+- <img src="mameta@2x.png"
+  srcset="mameta@2x.png 1x, mameta@3x.png.jpg 2x"
+  width="200" height=""
+  alt="">
 
 ## イメージ画像
 
-<img src="https://css-md-000x.wtb.cfbx.jp/images/md-xxx-00.jpg" alt="" title="" width="">
-
 ## portfolio url:
 
-- https://css-md-000x.wtb.cfbx.jp/
+- https://css-md-0009.wtb.cfbx.jp/
 
 ## module(共通部品)使い方
 
 - 「copy start」から「copy end」をコピペ。
-- css: src -> module -> xxx をコピペ。
+- css: src -> module -> b-name\_\_img をコピペ。
 
 ## 更新履歴
 
